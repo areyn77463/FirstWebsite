@@ -1,0 +1,250 @@
+.navMenu {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.navMenu a{
+  float: right;
+  color: #f2f2f2;
+  padding: 10px 17px;
+  text-decoration: underline;
+  font-family:"georgia";
+  font-size: 17px;
+}
+
+.navMenu a:hover {
+  background-color: #ddd;
+  color: blue;
+  font-size: 20px
+}
+
+h1{
+    color: black;
+    background-color:white;
+    font-family: "copperplate", fantasy;
+}
+
+h2{
+  padding: 0px 150px;
+  font-family:"lucida handwriting", cursive;
+}
+
+h3{
+  font-family:"lucida handwriting", cursive;
+}
+
+.navMenu a.home {
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: black;
+}
+
+.hImg{
+    float: right;
+    border-style: inset;
+    border-width: 5px;
+}
+
+.lImg{
+    float: left;
+}
+
+.aImg{
+    float:left;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+.aImg img.mySlides{
+  height: 300px;
+  width: 300px;
+  border-style:inset;
+  border-width: 5px;
+  border-color: #333;
+}
+
+#info{
+  padding: 10px 300px 10px 300px;
+}
+
+#about{
+  padding: 10px 300px 10px 300px;
+}
+
+#bigA{
+  font-family:"lucida handwriting", cursive;
+  font-size: 30px;
+}
+
+#about{
+  border-style: hidden double hidden double;
+}
+
+.event{
+  font-family:"lucida handwriting", cursive;
+  font-size: 60px;
+  color: blue;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ul {list-style-type: none;}
+
+.month {
+  padding: 70px 25px;
+  /*width: 100%;*/
+  position: absolute;
+  font-size: 35px;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month {
+  color: blue;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color:#ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+
+  border-bottom: solid;
+  padding: 0px 6.5px;
+  width: 13%;
+  color: #666;
+  text-align: center;
+}
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13%;
+  height: 42px;
+  text-align: center;
+  /*margin-bottom: 30px;*/
+  font-size:12px;
+  color: #777;
+  border-left: solid;
+  border-bottom: solid;
+  padding: 0px 5px;
+}
+
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+
+.eHead{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.result{
+  margin-left:15%;
+  font-size: 50px;
+}
+
+.signup{
+  position: absolute;
+  top: 30%;
+  left: 42%;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.sLeft{
+  margin-left: 10px;
+  position: relative;
+}
+
+.sRight{
+ position: relative;
+}
+
+.blueP{
+  position: absolute;
+  left: 25%;
+  opacity: 0.5;
+
+}
+
+.outer h2{
+  position: relative;
+  text-align: center;
+  font-size:30px;
+  padding: 0px;
+  margin: 0;
+  color: blue;
+}
+
+.contac h4{
+  position: relative;
+  padding: 0px;
+  margin: 0;
+  font-size: 20px;
+  color: blue;
+}
+.outer{
+  width:1200px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.contac {
+  position: relative;
+  width: 30%;
+  float: left;
+  text-align:left;
+  margin-left: 15%;
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  color: blue;
+  font-size:15px;
+}
+
+.message{
+  position: relative;
+  width: 30%;
+  float: left;
+  margin-left: 15%;
+  margin-top:10px;
+  font-size:20px;
+  color: blue;
+}
+
+p{
+  font-size: 22px;
+}
+
+.message p{
+  margin-top: 0%;
+  font-size: 18px;
+}
